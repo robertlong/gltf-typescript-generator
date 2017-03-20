@@ -1,0 +1,21 @@
+{
+  "name": "gltf-typescript-generator",
+  "version": "0.0.1",
+  "description": "GLTF 2.0 Typescript Interface Generator",
+  "scripts": {
+    "start": "node ./src/generator.js"
+  },
+  "bin": {
+    "gltf-typescript-generator": "./src/generator.js"
+  },
+  "keywords": [
+    "gltf",
+    "typescript"
+  ],
+  "author": "Robert Long",
+  "license": "Unlicense",
+  "devDependencies": {
+    "json-schema-ref-parser": "^3.1.2",
+    "json-schema-to-typescript": "^3.1.3"
+  }
+}
