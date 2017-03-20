@@ -1,12 +1,12 @@
 {
   "name": "gltf-typescript-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "GLTF 2.0 Typescript Interface Generator",
   "scripts": {
-    "start": "node ./src/generator.js"
+    "start": "./bin/generator.js"
   },
   "bin": {
-    "gltf-typescript-generator": "./src/generator.js"
+    "gltf-typescript-generator": "./bin/generator.js"
   },
   "keywords": [
     "gltf",
