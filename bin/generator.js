@@ -6,7 +6,7 @@ const RefParser = require('json-schema-ref-parser');
 const Generator = require('json-schema-to-typescript');
 
 const outputPath = process.argv[2] || './GLTF.ts';
-const schemaPath = process.argv[3] || 'https://rawgit.com/KhronosGroup/glTF/2.0/specification/2.0/schema/glTF.schema.json';
+const schemaPath = process.argv[3] || 'https://raw.githubusercontent.com/KhronosGroup/glTF/master/specification/2.0/schema/glTF.schema.json';
 
 
 RefParser.dereference(schemaPath)
