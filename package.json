@@ -5,6 +5,10 @@
   "scripts": {
     "start": "./bin/generator.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertlong/gltf-typescript-generator.git"
+  },
   "bin": {
     "gltf-typescript-generator": "./bin/generator.js"
   },
