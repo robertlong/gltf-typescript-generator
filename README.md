@@ -12,5 +12,5 @@ gltf-typescript-generator ./GLTF.ts
 
 ### Using a custom path to the GLTF schema
 ```
-gltf-typescript-generator ./GLTF.d.ts https://rawgit.com/KhronosGroup/glTF/2.0/specification/2.0/schema/glTF.schema.json
+gltf-typescript-generator ./GLTF.d.ts https://raw.githubusercontent.com/KhronosGroup/glTF/master/specification/2.0/schema/glTF.schema.json
 ```
